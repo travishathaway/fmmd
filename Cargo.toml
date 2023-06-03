@@ -1,0 +1,12 @@
+[package]
+name = "fmmd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Travis Hathaway <travis.j.hathaway@gmail.com>"]
+description = "A simple command line tool to rename music files based on their metadata"
+
+[dependencies]
+clap = { version = "4.3.1", features = ["derive"] }
+id3 = { version = "1.7.0" }
+owo-colors = "3.5.0"
+thiserror = "1.0.40"
